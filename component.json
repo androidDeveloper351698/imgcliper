@@ -1,0 +1,15 @@
+{
+	"name": "imgcliper",
+	"main": "main.js",
+	"version": "1.0.2",
+	"files": [
+		"clippinchzoom.js",
+		"imgcliper.js",
+		"main.js",
+		"pinchzoom.js",
+		"_canvasresize/binaryajax.js",
+		"_canvasresize/canvasResize.js",
+		"_canvasresize/exif.js",
+		"_canvasresize/main.js"
+	]
+}
