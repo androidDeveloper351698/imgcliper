@@ -8,7 +8,7 @@
 ```bash
 #进入项目
 cd <project_path>
-//也可以 component install didi-component/imgcliper 
+#也可以 component install didi-component/imgcliper 
 didi install didi-component/imgcliper
 ```
 
