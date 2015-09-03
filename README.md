@@ -3,10 +3,12 @@
 
 ## 安装
 
+先安装[fis-didi](https://github.com/webzhangnan/fis-didi)
+
 ```bash
 #进入项目
 cd <project_path>
-#安装dd
+//也可以 component install didi-component/imgcliper 
 didi install didi-component/imgcliper
 ```
 
