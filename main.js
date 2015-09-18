@@ -98,7 +98,7 @@ ImgUpload.prototype = {
                     }else{
                         me.showLoading();
                         me.compress({
-                            dataURL: data
+                            dataURL: dataURL
                         }, function(minData) {
                             me.upload(minData);
                         });
@@ -209,7 +209,7 @@ ImgUpload.prototype = {
     },
     //上传成功
     onUploadSuccess: function(response) {
-        this.imgCliper.close();
+        this.imgCliper && this.imgCliper.close();
         this.closeLoading();
         this.opt.onSuccessUpload && this.opt.onSuccessUpload(response);
     },
